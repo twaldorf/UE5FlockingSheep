@@ -1,2 +1,10 @@
 # UE5FlockingSheep
-Sheep flocking .cpp from MechJam23 game
+Sheep flocking character controller, from MechJam 2023 gamejam in Unreal Engine 5.2.
+
+## Requirements
+Compared to a vanilla flocking algorithm, where boids would be in constant movement, it is important that the sheep clump together and seek rest, only moving when other sheep are eaten by wolves or when other sheep are in flight mode. This allows the sheep to regroup and create surviving flocks when dispersed by a wolf. The player then gathers these disparate flocks with their mech and returns them to the pen.
+
+## Logic demo
+![sheep1](https://imgur.com/USbxYUa)
+![sheep2](https://imgur.com/dqsg2Sn)
+![sheep3](https://imgur.com/VgmVxQT)
